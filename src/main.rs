@@ -3,8 +3,7 @@ use std::io;
 fn main() {
     println!("Fibonacci nTh printer");
 
-    let ab: u128 = get_n();
-    fibonacci(ab);
+    fibonacci(get_n());
 }
 
 fn get_n() -> u128 {
